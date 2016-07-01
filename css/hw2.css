@@ -1,0 +1,92 @@
+body{
+	font-family: "Arial", sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	background: #f9f9f9;
+}
+.box{
+	width: 1060px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	background-color: white;
+	padding: 50px 45px 95px 45px;
+	border-right: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+	box-sizing: border-box;
+}
+.fitness{
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.menu1{
+	background-color: #535252;
+}
+.menu1 A{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background-color: #535252;
+	text-align: center;
+	line-height: 40px;
+}
+.p1, .p3, .p4{
+	width: 145px;
+}
+.p2{
+	width: 100px;
+}
+.menu1 A:active{
+	background-color: #414141;
+}
+.sidebar{
+	margin: 0;
+	padding: 40px 0px 0px 0px;
+	width: 240px;
+	line-height: 40px;
+	float: left;
+}
+li{
+	list-style-type: none;
+}
+li A{
+	text-decoration: none;
+	display: block;
+	padding: 0px 0px 0px 25px;
+	border: 1px solid #c8c8c8;
+	color: grey;
+}
+li A:hover{
+	background-color: #f9f9f9;
+	color: #2c2c2c;
+	position: relative;
+		left: 10px;
+}
+.image{
+	text-align: right;
+	margin: 0;
+	padding: 40px 0px 0px 0px;
+}
+.text{
+	width: 620px;
+	padding: 0px 40px 60px 315px
+}	
+.menu3 {
+	background-color: #e1e1e1;
+	padding: 0px 25px;
+}
+.menu3 A{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	line-height: 40px;
+}
+.n1, .n2, .n3 {
+	width: 140px;
+}
+.n4{
+	width: 280px;
+}
+.menu3 A:active {
+	text-decoration: underline;
+}
