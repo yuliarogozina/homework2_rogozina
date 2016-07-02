@@ -9,10 +9,11 @@ body{
 	margin: 0 auto;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 	background-color: white;
-	padding: 50px 45px 95px 45px;
+	padding: 50px 45px 60px 45px;
 	border-right: 1px solid #dbdbdb;
 	border-left: 1px solid #dbdbdb;
 	box-sizing: border-box;
+	height: 100vh;
 }
 .fitness{
 	display: inline-block;
@@ -35,7 +36,7 @@ body{
 .p2{
 	width: 100px;
 }
-.menu1 A:active{
+.menu1 A:hover{
 	background-color: #414141;
 }
 .sidebar{
@@ -58,8 +59,7 @@ li A{
 li A:hover{
 	background-color: #f9f9f9;
 	color: #2c2c2c;
-	position: relative;
-		left: 10px;
+	text-indent: 36px;
 }
 .image{
 	text-align: right;
@@ -87,6 +87,6 @@ li A:hover{
 .n4{
 	width: 280px;
 }
-.menu3 A:active {
+.menu3 A:hover {
 	text-decoration: underline;
 }
