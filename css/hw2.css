@@ -29,6 +29,12 @@ body{
 	background-color: #535252;
 	text-align: center;
 	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	margin-left: -0.25em;
+}
+.menu1 A:first-of-type{
+	margin-left: 0;
 }
 .p1, .p3, .p4{
 	width: 145px;
@@ -38,6 +44,8 @@ body{
 }
 .menu1 A:hover{
 	background-color: #414141;
+	outline: 1px solid #414141;
+	line-height: 38px;
 }
 .sidebar{
 	margin: 0;
