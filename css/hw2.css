@@ -20,20 +20,20 @@ body{
 	margin-bottom: 40px;
 }
 .menu1{
-	background-color: #535252;
+	background: url(../img/menu.png);
+	background-repeat: repeat-x;
 }
-.menu1 A{
+.menu1 a{
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	background-color: #535252;
 	text-align: center;
 	line-height: 40px;
 	margin: 0;
 	padding: 0;
 	margin-left: -0.25em;
 }
-.menu1 A:first-of-type{
+.menu1 a:first-of-type{
 	margin-left: 0;
 }
 .p1, .p3, .p4{
@@ -42,10 +42,12 @@ body{
 .p2{
 	width: 100px;
 }
-.menu1 A:hover{
-	background-color: #414141;
-	outline: 1px solid #414141;
+.menu1 a:hover{
+	background: url(../img/hover.png);
+	background-repeat: repeat-x;
 	line-height: 38px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
 }
 .sidebar{
 	margin: 0;
@@ -54,35 +56,45 @@ body{
 	line-height: 40px;
 	float: left;
 }
+.menu2{
+	margin: 0;
+	padding:0;
+}
 li{
 	list-style-type: none;
 }
-li A{
+li a{
 	text-decoration: none;
 	display: block;
 	padding: 0px 0px 0px 25px;
 	border: 1px solid #c8c8c8;
+	border-bottom: none;
 	color: grey;
 }
-li A:hover{
+.menu2:last-child{
+	border-bottom: 1px solid #c8c8c8;
+}
+li a:hover{
 	background-color: #f9f9f9;
 	color: #2c2c2c;
-	text-indent: 36px;
+	text-indent: 35px;
 }
 .image{
 	text-align: right;
 	margin: 0;
 	padding: 40px 0px 0px 0px;
+	overflow: hidden;
 }
 .text{
 	width: 620px;
-	padding: 0px 40px 60px 315px
+	padding: 0px 40px 60px 315px;
+	overflow: hidden;
 }	
 .menu3 {
 	background-color: #e1e1e1;
 	padding: 0px 25px;
 }
-.menu3 A{
+.menu3 a{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
@@ -95,6 +107,6 @@ li A:hover{
 .n4{
 	width: 280px;
 }
-.menu3 A:hover {
+.menu3 a:hover {
 	text-decoration: underline;
 }
